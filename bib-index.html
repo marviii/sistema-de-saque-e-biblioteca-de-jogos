@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Biblioteca de Jogos</title>
+  <link rel="stylesheet" href="bib-style.css">
+  <link rel="icon" href="/imagens/leaf.png">
+</head>
+
+<body id='background'>
+  <img id='vine1' src="imagens/vines.png" alt="vinhas">
+  <img id='vine2' src="imagens/vines.png" alt="vinhas">
+  <div id='corpo'>
+    <div id='posicao'>
+      <div class='lista'>
+        <!-- <div class='unidade'>
+          <img id='heart' src="imagens/heart0.png" alt="heart">
+          <img class='capa' src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2ic1.jpg" alt="capa">
+          <div>
+            <a class="nome" href="https://www.backloggd.com/games/tsukihime/" target="_blank"><h1>Tsukihime</h1></a>
+            <p class='desenvolvedora'>Desenvolvedora: Type-Moon</p>
+            <img id= 'star1' class= 'star' src="imagens/star0.png" alt="star">
+            <img id= 'star2' class= 'star' src="imagens/star0.png" alt="star">
+            <img id= 'star3' class= 'star' src="imagens/star0.png" alt="star">
+            <img id= 'star4' class= 'star' src="imagens/star0.png" alt="star">
+            <img id= 'star5' class= 'star' src="imagens/star0.png" alt="star">
+            <select name="status" class="status">
+              <option value="jogado" selected>Jogado</option>
+              <option value="jogando">Jogando</option>
+              <option value="na lista">Na Lista</option>
+            </select>
+          </div>
+        </div> -->
+      </div>
+      <h2 style="font-size: 35px;">Biblioteca de Jogos</h2>
+      <a id='legenda' href="https://www.backloggd.com/" target="_blank">Use o site <b>backloggd</b> para pesquisas.</a>
+      <form autocomplete="off">
+        <label for="nome"><b>Nome do Jogo:</b></label><br>
+        <input name='nome' type="text"><br>
+        <label for="desenvolvedora"><b>Desenvolvedora:</b></label><br>
+        <input name='desenvolvedora' type="text"><br>
+        <label for="capa"><b>Capa:</b></label><br>
+        <input name='capa' type="link"><br>
+        <label for="link"><b>Link do Jogo:</b></label><br>
+        <input name='link' type="link"><br><br>
+        <button id= 'enviar' type="submit"><b>Enviar</b></button>
+        <button id= 'deletar' type="reset"><b>Delete</b></button>
+      </form>
+    </div>
+    <h1 id='reset'>Resetar Lista</h1>
+    <img id='folha' src="imagens/leaf.png" alt="folha">
+  </div>
+  <script src="logica.js" type="module"></script>
+</body>
+
+</html>
